@@ -2,20 +2,48 @@
   "roots": [
     {
       "key": "root",
-      "title": "root",
+      "title": "Home",
       "icon": null,
       "hasTitleNumberOutlined": false,
       "vaultName": "jzheaux.github.io",
       "navExclude": false,
       "children": [
         {
-          "key": "5z8np7ysy5lpx5gon0rlxi6",
+          "key": "chtjxod2fksch0v5j8lo5wl",
+          "title": "Pluralsight",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "jzheaux.github.io",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "eg91kr6lrd5v9o6q7f16szc",
+              "title": "LLM Frameworks",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "jzheaux.github.io",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "g62028mjr0rr9tblbi264yd",
           "title": "Spring Security",
           "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "jzheaux.github.io",
           "navExclude": false,
           "children": [
+            {
+              "key": "uasdc28zojjb6iwprkqmcp2",
+              "title": "Polish",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "jzheaux.github.io",
+              "navExclude": false,
+              "children": []
+            },
             {
               "key": "81kqcmlpjfys4fgbvrkss4b",
               "title": "Tips",
@@ -26,15 +54,6 @@
               "children": []
             }
           ]
-        },
-        {
-          "key": "wv8pjhxjjrp5bnwlz2kznsg",
-          "title": "Tutorial",
-          "icon": null,
-          "hasTitleNumberOutlined": false,
-          "vaultName": "jzheaux.github.io",
-          "navExclude": false,
-          "children": []
         }
       ]
     }
@@ -42,8 +61,10 @@
   "child2parent": {
     "403": null,
     "root": null,
-    "5z8np7ysy5lpx5gon0rlxi6": "root",
-    "81kqcmlpjfys4fgbvrkss4b": "5z8np7ysy5lpx5gon0rlxi6",
-    "wv8pjhxjjrp5bnwlz2kznsg": "root"
+    "g62028mjr0rr9tblbi264yd": "root",
+    "81kqcmlpjfys4fgbvrkss4b": "g62028mjr0rr9tblbi264yd",
+    "uasdc28zojjb6iwprkqmcp2": "g62028mjr0rr9tblbi264yd",
+    "chtjxod2fksch0v5j8lo5wl": "root",
+    "eg91kr6lrd5v9o6q7f16szc": "chtjxod2fksch0v5j8lo5wl"
   }
 }

@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1739853088417,
-      "created": 1739853088418,
+      "updated": 1739853899896,
+      "created": 1739853899896,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -22,9 +22,9 @@
     },
     "root": {
       "id": "root",
-      "title": "root",
+      "title": "Home",
       "desc": "",
-      "updated": 1605266684036,
+      "updated": 1739853481088,
       "created": 1595961348801,
       "custom": {
         "nav_order": 0,
@@ -37,17 +37,17 @@
         "selfContained": true,
         "name": "jzheaux.github.io"
       },
-      "contentHash": "b49e7e13a0c91addc8ab9ef97080cf1e",
+      "contentHash": "4e8c1702db954fc94096c9251388f416",
       "links": [],
       "anchors": {},
       "children": [
-        "wv8pjhxjjrp5bnwlz2kznsg",
-        "5z8np7ysy5lpx5gon0rlxi6"
+        "chtjxod2fksch0v5j8lo5wl",
+        "g62028mjr0rr9tblbi264yd"
       ],
       "parent": null,
       "data": {}
     },
-    "5z8np7ysy5lpx5gon0rlxi6": {
+    "g62028mjr0rr9tblbi264yd": {
       "fname": "spring-security",
       "stub": true,
       "vault": {
@@ -57,13 +57,14 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1739853088304,
-      "created": 1739853088304,
-      "id": "5z8np7ysy5lpx5gon0rlxi6",
+      "updated": 1739853899826,
+      "created": 1739853899826,
+      "id": "g62028mjr0rr9tblbi264yd",
       "desc": "",
       "links": [],
       "anchors": {},
       "children": [
+        "uasdc28zojjb6iwprkqmcp2",
         "81kqcmlpjfys4fgbvrkss4b"
       ],
       "parent": "root",
@@ -116,205 +117,81 @@
         }
       },
       "children": [],
-      "parent": "5z8np7ysy5lpx5gon0rlxi6",
+      "parent": "g62028mjr0rr9tblbi264yd",
       "data": {}
     },
-    "wv8pjhxjjrp5bnwlz2kznsg": {
-      "id": "wv8pjhxjjrp5bnwlz2kznsg",
-      "title": "Tutorial",
+    "uasdc28zojjb6iwprkqmcp2": {
+      "id": "uasdc28zojjb6iwprkqmcp2",
+      "title": "Polish",
       "desc": "",
-      "updated": 1660931467392,
-      "created": 1659721741451,
-      "currentStep": 0,
-      "totalSteps": 0,
-      "custom": {
-        "currentStep": 0,
-        "totalSteps": 0
-      },
-      "fname": "tutorial",
+      "updated": 1739853866857,
+      "created": 1739853736548,
+      "custom": {},
+      "fname": "spring-security.polish",
       "type": "note",
       "vault": {
         "fsPath": ".",
         "selfContained": true,
         "name": "jzheaux.github.io"
       },
-      "contentHash": "6e0867365fc7c8512b3571dcd9169f3d",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron-1"
-          },
-          "value": "dendron",
-          "position": {
-            "start": {
-              "line": 49,
-              "column": 11,
-              "offset": 2861
-            },
-            "end": {
-              "line": 49,
-              "column": 22,
-              "offset": 2872
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "dendron"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron-1"
-          },
-          "value": "dendron",
-          "position": {
-            "start": {
-              "line": 50,
-              "column": 12,
-              "offset": 2976
-            },
-            "end": {
-              "line": 50,
-              "column": 23,
-              "offset": 2987
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "dendron"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "tutorial",
-            "id": "wv8pjhxjjrp5bnwlz2kznsg",
-            "vaultName": "Dendron-1"
-          },
-          "value": "tutorial.one",
-          "position": {
-            "start": {
-              "line": 51,
-              "column": 15,
-              "offset": 3042
-            },
-            "end": {
-              "line": 51,
-              "column": 31,
-              "offset": 3058
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "tutorial.one"
-          }
-        }
-      ],
-      "anchors": {
-        "create-a-note": {
-          "type": "header",
-          "text": "Create a Note",
-          "value": "create-a-note",
-          "line": 14,
-          "column": 0,
-          "depth": 2
-        },
-        "find-a-note": {
-          "type": "header",
-          "text": "Find a Note",
-          "value": "find-a-note",
-          "line": 23,
-          "column": 0,
-          "depth": 2
-        },
-        "organize-your-notes": {
-          "type": "header",
-          "text": "Organize your Notes",
-          "value": "organize-your-notes",
-          "line": 31,
-          "column": 0,
-          "depth": 2
-        },
-        "create-a-link": {
-          "type": "header",
-          "text": "Create a link",
-          "value": "create-a-link",
-          "line": 39,
-          "column": 0,
-          "depth": 2
-        },
-        "navigate-a-link": {
-          "type": "header",
-          "text": "Navigate a link",
-          "value": "navigate-a-link",
-          "line": 49,
-          "column": 0,
-          "depth": 2
-        },
-        "rename-a-note": {
-          "type": "header",
-          "text": "Rename a Note",
-          "value": "rename-a-note",
-          "line": 55,
-          "column": 0,
-          "depth": 2
-        },
-        "unlock-the-preview": {
-          "type": "header",
-          "text": "Unlock the Preview",
-          "value": "unlock-the-preview",
-          "line": 65,
-          "column": 0,
-          "depth": 2
-        },
-        "conclusion": {
-          "type": "header",
-          "text": "Conclusion",
-          "value": "conclusion",
-          "line": 69,
-          "column": 0,
-          "depth": 2
-        },
-        "next-steps": {
-          "type": "header",
-          "text": "Next Steps",
-          "value": "next-steps",
-          "line": 75,
-          "column": 0,
-          "depth": 2
-        },
-        "community": {
-          "type": "header",
-          "text": "Community",
-          "value": "community",
-          "line": 97,
-          "column": 0,
-          "depth": 2
-        }
-      },
+      "contentHash": "e5bd9ae48a982b83795d132a81149141",
+      "links": [],
+      "anchors": {},
       "children": [],
+      "parent": "g62028mjr0rr9tblbi264yd",
+      "data": {}
+    },
+    "chtjxod2fksch0v5j8lo5wl": {
+      "fname": "pluralsight",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "jzheaux.github.io"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1739853899826,
+      "created": 1739853899826,
+      "id": "chtjxod2fksch0v5j8lo5wl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "eg91kr6lrd5v9o6q7f16szc"
+      ],
       "parent": "root",
+      "data": {},
+      "title": "Pluralsight"
+    },
+    "eg91kr6lrd5v9o6q7f16szc": {
+      "id": "eg91kr6lrd5v9o6q7f16szc",
+      "title": "LLM Frameworks",
+      "desc": "",
+      "updated": 1739853727391,
+      "created": 1739853672814,
+      "custom": {},
+      "fname": "pluralsight.llm-frameworks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "jzheaux.github.io"
+      },
+      "contentHash": "3107d94fa4221b9102886bb99ffccb92",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "chtjxod2fksch0v5j8lo5wl",
       "data": {}
     }
   },
   "domains": [
     {
       "id": "root",
-      "title": "root",
+      "title": "Home",
       "desc": "",
-      "updated": 1605266684036,
+      "updated": 1739853481088,
       "created": 1595961348801,
       "custom": {
         "nav_order": 0,
@@ -327,23 +204,23 @@
         "selfContained": true,
         "name": "jzheaux.github.io"
       },
-      "contentHash": "b49e7e13a0c91addc8ab9ef97080cf1e",
+      "contentHash": "4e8c1702db954fc94096c9251388f416",
       "links": [],
       "anchors": {},
       "children": [
-        "wv8pjhxjjrp5bnwlz2kznsg",
-        "5z8np7ysy5lpx5gon0rlxi6"
+        "chtjxod2fksch0v5j8lo5wl",
+        "g62028mjr0rr9tblbi264yd"
       ],
       "parent": null,
       "data": {},
-      "body": "\nThis is the root for your Dendron vault.\n\nIf you decide to publish your entire vault, it will be your landing page. You are free to customize any part of this page except the frontmatter at the top, between the `---`.\n"
+      "body": "\nWelcome to my space for personal musings about coding, cybersecurity, AI, and at times philosophy."
     }
   ],
   "noteIndex": {
     "id": "root",
-    "title": "root",
+    "title": "Home",
     "desc": "",
-    "updated": 1605266684036,
+    "updated": 1739853481088,
     "created": 1595961348801,
     "custom": {
       "nav_order": 0,
@@ -356,16 +233,16 @@
       "selfContained": true,
       "name": "jzheaux.github.io"
     },
-    "contentHash": "b49e7e13a0c91addc8ab9ef97080cf1e",
+    "contentHash": "4e8c1702db954fc94096c9251388f416",
     "links": [],
     "anchors": {},
     "children": [
-      "wv8pjhxjjrp5bnwlz2kznsg",
-      "5z8np7ysy5lpx5gon0rlxi6"
+      "chtjxod2fksch0v5j8lo5wl",
+      "g62028mjr0rr9tblbi264yd"
     ],
     "parent": null,
     "data": {},
-    "body": "\nThis is the root for your Dendron vault.\n\nIf you decide to publish your entire vault, it will be your landing page. You are free to customize any part of this page except the frontmatter at the top, between the `---`.\n"
+    "body": "\nWelcome to my space for personal musings about coding, cybersecurity, AI, and at times philosophy."
   },
   "vaults": [
     {
