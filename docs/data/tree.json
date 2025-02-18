@@ -1,0 +1,49 @@
+{
+  "roots": [
+    {
+      "key": "root",
+      "title": "root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "jzheaux.github.io",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "5z8np7ysy5lpx5gon0rlxi6",
+          "title": "Spring Security",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "jzheaux.github.io",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "81kqcmlpjfys4fgbvrkss4b",
+              "title": "Tips",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "jzheaux.github.io",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "wv8pjhxjjrp5bnwlz2kznsg",
+          "title": "Tutorial",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "jzheaux.github.io",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "root": null,
+    "5z8np7ysy5lpx5gon0rlxi6": "root",
+    "81kqcmlpjfys4fgbvrkss4b": "5z8np7ysy5lpx5gon0rlxi6",
+    "wv8pjhxjjrp5bnwlz2kznsg": "root"
+  }
+}

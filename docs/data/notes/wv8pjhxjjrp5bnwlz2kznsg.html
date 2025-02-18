@@ -1,0 +1,95 @@
+<h1 id="tutorial"><a aria-hidden="true" class="anchor-heading icon-link" href="#tutorial"></a>Tutorial</h1>
+<p>Welcome to Dendron! Dendron is a developer-focused knowledge base that helps you manage information using <strong>flexible hierarchies</strong>!</p>
+<p>You are currently in the tutorial vault (a vault is the folder where your notes are stored). Feel free to edit this note and create new files as you go through the quickstart!</p>
+<h2 id="create-a-note"><a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-note"></a>Create a Note</h2>
+<ol>
+<li>Use <code>Ctrl+L</code> / <code>Cmd+L</code> to bring up the <strong>lookup prompt</strong></li>
+<li>Type <code>dendron</code> and select <code>Create New</code></li>
+</ol>
+<p>Congrats, you just <strong>created your first note</strong>! Notes in Dendron are plain text markdown with <a href="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b">frontmatter</a> on top. You can edit them in Dendron or using <del>vim</del> your favourite text editor.</p>
+<blockquote>
+<p>NOTE: You might have noticed that the tutorial preview has not changed - this is because it is currently <code>locked</code>. This keeps the preview from changing as you edit notes. We will teach you at the end how to unlock the preview.</p>
+</blockquote>
+<h2 id="find-a-note"><a aria-hidden="true" class="anchor-heading icon-link" href="#find-a-note"></a>Find a Note</h2>
+<ol>
+<li>Use <code>Ctrl+L</code> / <code>Cmd+L</code> to bring up the <strong>lookup prompt</strong> again</li>
+<li>Type <code>tutorial</code> and press <code>&#x3C;ENTER></code>
+<blockquote>
+<p>TIP: you don't have to type out the entire query, press <code>&#x3C;TAB></code> to autocomplete</p>
+</blockquote>
+</li>
+</ol>
+<p>You just <strong>found a note</strong>. We refer to both finding and creating of notes using the <strong>lookup prompt</strong> as performing a <strong>lookup</strong>.</p>
+<h2 id="organize-your-notes"><a aria-hidden="true" class="anchor-heading icon-link" href="#organize-your-notes"></a>Organize your Notes</h2>
+<ol>
+<li>Dendron has a custom <a href="https://wiki.dendron.so/notes/hur7r6gr3kqa56s2vme986j">Tree View</a> to view your notes. If it's not currently in focus, you can use <code>CTRL+SHIFT+P</code>/<code>CMD+SHIFT+P</code> to open the command prompt and type in <a href="command:dendron.treeView.focus"><code>Dendron: focus on tree view</code></a> to make it appear</li>
+<li><strong>Lookup</strong> <code>tutorial.one</code>. Notice that the Dendron Tree View will correctly nest the <code>one</code> note under the <code>tutorial</code> note.</li>
+</ol>
+<p>You just <strong>created your first hierarchy</strong>!
+Hierarchies in Dendron are just <code>.</code> delimited files. This makes each note both a file and a folder and makes it easy to keep your notes organized</p>
+<h2 id="create-a-link"><a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-link"></a>Create a link</h2>
+<ol>
+<li>In <code>tutorial.one</code>, type <code>[[</code> - this should trigger the autocomplete. You can type <code>den</code> to narrow it down to <code>dendron</code> and hit enter</li>
+</ol>
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/ef1cedcbf5394f14ae4b13afd1b6418a" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<p>You just <strong>created a link</strong>! If you hover your mouse over the link, you can get a preview of the contents inside the note!</p>
+<blockquote>
+<p>NOTE: the links with the <code>[[</code> are called wikilinks (because they were first popularized by Wikipedia)</p>
+</blockquote>
+<h2 id="navigate-a-link"><a aria-hidden="true" class="anchor-heading icon-link" href="#navigate-a-link"></a>Navigate a link</h2>
+<ol>
+<li>Move your text cursor over the link you just created. Hold down <code>&#x3C;CTRL>+&#x3C;ENTER></code>/<code>&#x3C;CMD>+&#x3C;ENTER></code></li>
+</ol>
+<p>You just <strong>navigated the link</strong>! You can also use <code>CTRL+CLICK</code> or <code>CMD+CLICK</code> to navigate links via mouse.</p>
+<h2 id="rename-a-note"><a aria-hidden="true" class="anchor-heading icon-link" href="#rename-a-note"></a>Rename a Note</h2>
+<ol>
+<li>Inside <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">dendron (Private)</a>, bring up the command prompt (<code>CTRL+SHIFT+P</code>/<code>CMD+SHIFT+P</code>) and type <code>Dendron: Rename Note</code></li>
+<li>Replace <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">dendron (Private)</a> with <code>my-note</code> and then press <code>&#x3C;ENTER></code></li>
+<li>Go back to <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">tutorial.one (Private)</a> - you should see the updated link!</li>
+</ol>
+<p>You just <strong>renamed a note</strong>! When you rename a note, Dendron updates all links and references of the original note.</p>
+<p>Renaming is just one of the many ways you can <a href="https://wiki.dendron.so/notes/srajljj10V2dl19nCSFiC">refactor</a> your knowledge base - some other common use cases include <a href="https://wiki.dendron.so/notes/58rjapuyn1yjjcrf9sh6fby">renaming headings</a>, <a href="https://wiki.dendron.so/notes/nxarb351z0kfbl5mkw3arw6">merging notes</a>, and <a href="https://wiki.dendron.so/notes/9zwkp44wnlaa8p8dpt4w8tq">renaming entire hierarchies using regex</a>.</p>
+<h2 id="unlock-the-preview"><a aria-hidden="true" class="anchor-heading icon-link" href="#unlock-the-preview"></a>Unlock the Preview</h2>
+<p>To unlock, click the lock icon on the top right of the page or use the <a href="command:dendron.togglePreviewLock">Dendron: Toggle Preview Lock</a> command. Now click on the editor again on a new page. You should see the preview change.</p>
+<h2 id="conclusion"><a aria-hidden="true" class="anchor-heading icon-link" href="#conclusion"></a>Conclusion</h2>
+<p>Congrats, you finished the Dendron tutorial!</p>
+<p>Was there anything <strong>unclear or buggy</strong> about this tutorial? Please <a href="https://github.com/dendronhq/dendron/discussions/3266"><strong>report it</strong></a> so we can <strong>make it better</strong>!</p>
+<h2 id="next-steps"><a aria-hidden="true" class="anchor-heading icon-link" href="#next-steps"></a>Next Steps</h2>
+<p>Depending on your needs, here are some common next steps:</p>
+<ul>
+<li>
+<p>I want to <strong>start writing</strong>: <a href="command:dendron.createDailyJournalNote">Create a daily journal note</a> (<a href="https://wiki.dendron.so/notes/ogIUqY5VDCJP28G3cAJhd">docs</a>)</p>
+</li>
+<li>
+<p>I want to <strong>use templates</strong>: Use the <a href="https://wiki.dendron.so/notes/ftohqknticu6bw4cfmzskq6">Appy Template</a> command to apply <a href="https://wiki.dendron.so/notes/861cbdf8-102e-4633-9933-1f3d74df53d2">templates</a> to existing notes</p>
+</li>
+<li>
+<p>I want to do a <strong>longer tutorial</strong>: Check out our <a href="https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/">5min tutorial to explore more of Dendron's functionality</a></p>
+</li>
+<li>
+<p>I want to <strong>implement a particular workflow</strong> (bullet journal, zettelkasten, etc): Check out community <a href="https://wiki.dendron.so/notes/9313b845-d9bf-42c9-aad1-0da34794ce26">workflow guides</a></p>
+</li>
+<li>
+<p>I want to use Dendron for <strong>tasks and todos</strong>: See the <a href="https://wiki.dendron.so/notes/ordz7r99w1v099v14hrwgnp">Getting Things Done (GTD), Bullet Journaling, and Other Task Management Workflows</a> for how the founder of Dendron uses it to manage his work.</p>
+</li>
+<li>
+<p>I want to explore <strong>advanced features</strong>: See <a href="https://wiki.dendron.so/notes/TflY5kn29HOLpp1pWT9tP">next steps</a> for longer walkthroughs and advanced functionality!</p>
+</li>
+<li>
+<p>I want to start clean with a <strong>new vault at a custom location</strong>: Run <a href="command:dendron.initWS">Dendron: Initialize Workspace</a> from the command prompt (or click this link) to start from a clean slate</p>
+</li>
+<li>
+<p>I want to use Dendron as a <strong>knowledge base for my team</strong>: Read the <a href="https://wiki.dendron.so/notes/98f6d928-3f61-49fb-9c9e-70c27d25f838">Dendron team setup</a> to get started</p>
+</li>
+</ul>
+<blockquote>
+<p>Coming from Obsidian? Click <a href="command:dendron.importObsidianPod">here</a> to import your Obsidian notes (or any markdown notes) into Dendron to see how they look.</p>
+</blockquote>
+<h2 id="community"><a aria-hidden="true" class="anchor-heading icon-link" href="#community"></a>Community</h2>
+<p>Dendron is more that just a tool - we are also a community of individuals that are passionate about knowledge management. If you need help or want to connect with the community, join us in the <a href="https://link.dendron.so/discord">Discords</a>.</p>
+<p>You can also:</p>
+<ul>
+<li>Star us on <a href="https://github.com/dendronhq/dendron">GitHub</a></li>
+<li>Follow us on <a href="https://twitter.com/dendronhq">Twitter</a></li>
+<li>Subscribe to the <a href="https://link.dendron.so/newsletter">Dendron Newsletter</a></li>
+</ul>
